@@ -894,11 +894,11 @@ input, textarea {
         margin-bottom: 72px;
         margin-right: 0;
         }
-    }
 
     .footer-social-media-line {
-        margin-right: 0;
-    }
+            margin-right: 0;
+        }
+
 
     .footer-subscribe-section {
         display: flex;
@@ -916,7 +916,6 @@ input, textarea {
     .button-subscribe-footer {
         max-width: 165px;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1157px) {
