@@ -313,7 +313,7 @@ input, textarea {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width:1157px) {
     .style-first-section {
     background-image: linear-gradient(
         to bottom, 
@@ -323,7 +323,7 @@ input, textarea {
     }
 }
 
-@media (min-width:768px) and (min-resolution: 192dpi) {
+@media (min-width:768px) and (max-width:1157px) and (min-resolution: 192dpi) {
     .style-first-section {
     background-image: linear-gradient(
         to bottom, 
@@ -751,6 +751,10 @@ input, textarea {
     margin-right: 120px;
 }
 
+.footer-social-media {
+    margin-right: 80px;
+}
+
 .footer-social-media-sign {
     font-weight: 500;
     font-size: 16px;
@@ -763,7 +767,6 @@ input, textarea {
 .footer-social-media-line {
     display: flex;
     gap: 16px;
-    margin-right: 80px;
 }
 
 .footer-icons-style {
@@ -934,7 +937,7 @@ input, textarea {
     }
 }
 
-/* different texts in sections */
+/* ======= TEXTS IN SECTIONS ======= */
 
 
 .section-title{
