@@ -308,6 +308,7 @@ input, textarea {
         url(../images/mobile_back.jpg);
     }
 }
+/* why? */
 
 @media (min-width:320px) and (min-resolution: 192dpi) {
     .style-first-section {
@@ -315,7 +316,7 @@ input, textarea {
         to bottom, 
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)), 
-        url(../images/mobile_back_2x.jpg);
+        url(.../images/mobile_back2x.jpg);
     }
 }
 
